@@ -1,0 +1,36 @@
+#seccion-marcas {
+    padding: 200px 0;
+    background-color: #F1F1F1;
+}
+
+#seccion-marcas .container-marcas .box-marca {
+    width: 150px;
+    height: 180px;
+    background-color: #fff;
+    display: block;
+    border: 1px solid #EEEEEE;
+    cursor: pointer;
+    margin: 0 auto;
+}
+
+#seccion-marcas .container-marcas .box-marca:hover .btn {
+    background-color: #0033A0;
+}
+
+#seccion-marcas .container-marcas .box-marca:hover img {
+    filter: inherit;
+}
+
+#seccion-marcas .container-marcas .box-marca img {
+    width: 150px;
+    height: 150px;
+    filter: grayscale(1);
+    transition-duration: .3s;
+}
+
+#seccion-marcas .container-marcas .box-marca .btn {
+    width: 100%;
+    height: 30px;
+    background-color: #1A374D;
+    border-radius: 0;
+}

@@ -1,0 +1,44 @@
+.barra-top {
+    background-color: var(--blue);
+}
+
+.barra-top p,
+.barra-top a {
+    color: #fff;
+    font-size: 10px;
+}
+
+.barra-top a {
+    text-decoration: none;
+    transition-duration: .3s;
+}
+
+.barra-top a:hover {
+    font-weight: 500;
+}
+
+.navbar .nav-item {
+    margin: 0px 10px;
+}
+
+.navbar .nav-item .nav-link {
+    color: var(--blue);
+    font-size: 12px;
+    padding: 0;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    transition-duration: .3s;
+}
+
+.navbar .nav-item .nav-link.active {
+    color: var(--light-blue);
+    text-decoration: underline;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: var(--light-blue);
+}
+
+.navbar .navbar-logo img {
+    width: 200px;
+}

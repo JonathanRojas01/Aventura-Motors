@@ -1,0 +1,12 @@
+.form-contacto input,
+.form-contacto textarea,
+.form-contacto select {
+    background-color: #6e7278 !important;
+    color: #fff !important;
+    border-radius: 0 !important;
+}
+
+.form-contacto input::placeholder,
+.form-contacto textarea::placeholder {
+    color: #fff !important;
+}

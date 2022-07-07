@@ -1,0 +1,13 @@
+#seccion-caracteristicas {
+    background-color: #141E25;
+    padding: 100px 0;
+    padding-bottom: 200px;
+}
+
+#seccion-caracteristicas .title-blue {
+    color: #0098E1;
+}
+
+#seccion-caracteristicas .img-desf-top {
+    margin-top: -150px;
+}

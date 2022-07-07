@@ -1,0 +1,45 @@
+.box-title h3 {
+    font-size: 40px;
+    color: var(--light-blue);
+    font-family: 'Jost', sans-serif;
+    position: relative;
+    padding-bottom: 10px;
+    width: fit-content;
+}
+
+.box-title h3::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: rgb(0, 152, 225);
+    background: linear-gradient(90deg, rgba(0, 152, 225, 1) 0%, rgba(0, 152, 225, 0.0959734235491071) 80%);
+}
+
+.box-title h3 span {
+    color: var(--blue);
+}
+
+
+/* Title 2 */
+
+.box-title2 h3 {
+    font-size: 40px;
+    font-family: 'Jost', sans-serif;
+    position: relative;
+    padding-bottom: 10px;
+    width: fit-content;
+}
+
+.box-title2 h3::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+    background: linear-gradient(90deg, #fff 0%, rgba(255, 255, 255, 0.5) 80%);
+}

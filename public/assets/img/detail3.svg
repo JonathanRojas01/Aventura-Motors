@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="38.562" height="30.228" viewBox="0 0 38.562 30.228">
+  <g id="speedometer" transform="translate(-1.125 -5.062)">
+    <path id="Trazado_19" data-name="Trazado 19" d="M34.039,10.71A19.281,19.281,0,0,0,1.125,24.344v7.07H12.694V28.843h-9v-4.5a16.71,16.71,0,1,1,33.42,0v4.5h-9v2.571H39.687v-7.07a19.155,19.155,0,0,0-5.648-13.633Z" transform="translate(0 0)" fill="#fff"/>
+    <path id="Trazado_20" data-name="Trazado 20" d="M5.625,18.563H8.2v2.571H5.625Z" transform="translate(0.642 1.925)" fill="#fff"/>
+    <path id="Trazado_21" data-name="Trazado 21" d="M16.875,9h2.571v2.571H16.875Z" transform="translate(2.246 0.561)" fill="#fff"/>
+    <path id="Trazado_22" data-name="Trazado 22" d="M9.563,11.813h2.571v2.571H9.563Z" transform="translate(1.203 0.962)" fill="#fff"/>
+    <path id="Trazado_23" data-name="Trazado 23" d="M28.125,18.563H30.7v2.571H28.125Z" transform="translate(3.849 1.925)" fill="#fff"/>
+    <path id="Trazado_24" data-name="Trazado 24" d="M21.956,25.146l5.56-11.582L25.2,12.451,19.64,24.03a5.153,5.153,0,1,0,2.316,1.115Zm-3.311,6.5a2.571,2.571,0,1,1,2.571-2.571,2.571,2.571,0,0,1-2.571,2.571Z" transform="translate(1.761 1.053)" fill="#fff"/>
+  </g>
+</svg>

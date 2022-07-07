@@ -1,0 +1,158 @@
+/* Components */
+
+@import url('assets/css/components/buttons.css');
+@import url('assets/css/components/cards.css');
+@import url('assets/css/components/titles.css');
+@import url('assets/css/components/navbar.css');
+@import url('assets/css/components/forms.css');
+@import url('assets/css/components/footer.css');
+
+/* Secciones */
+
+@import url('assets/css/secciones/seccion-estilo.css');
+@import url('assets/css/secciones/seccion-contacto.css');
+@import url('assets/css/secciones/seccion-inicio.css');
+@import url('assets/css/secciones/seccion-tabs.css');
+@import url('assets/css/secciones/seccion-versiones.css');
+@import url('assets/css/secciones/seccion-caracteristicas.css');
+@import url('assets/css/secciones/seccion-servicios.css');
+@import url('assets/css/secciones/seccion-ofertas.css');
+@import url('assets/css/secciones/seccion-marcas.css');
+@import url('assets/css/secciones/seccion-banners-main.css');
+
+/* Tipografias */
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Colors */
+
+:root {
+    --light-blue: #0098E1;
+    --blue: #0033A0;
+    --gray: #1A374D;
+}
+
+
+/* Global Styles */
+
+* {
+    font-family: 'Jost', sans-serif;
+}
+
+html {
+    width: 100vw;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+    width: 15px;
+    height: 20px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #0eaeb9;
+    border-radius: 5px;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #066168;
+    box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+body::-webkit-scrollbar-thumb:active {
+    background-color: #4e4e4e;
+}
+
+body::-webkit-scrollbar-track {
+    width: 8px;
+    background-color: #088791;
+}
+
+body::-webkit-scrollbar-track:hover,
+body::-webkit-scrollbar-track:active {
+    background: #ccc;
+}
+
+p {
+    margin: 0;
+}
+
+.f-12 {
+    font-size: 12px;
+}
+
+.f-14 {
+    font-size: 14px;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.p-10 {
+    padding: 10px;
+}
+
+.py-10 {
+    padding: 10px 0;
+}
+
+.lightblue {
+    color: var(--light-blue);
+}
+
+.blue {
+    color: var(--blue);
+}
+
+.imgCover {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.velo {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(255, 255, 255);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.7010154403558299) 80%);
+}
+
+.velo2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.7010154403558299) 0%, rgba(0, 0, 0, 0.10157566444546573) 80%);
+}
+
+
+/* Redes sociales */
+
+.rrss a .hover {
+    display: none;
+}
+
+.rrss a:hover .normal {
+    display: none;
+}
+
+.rrss a:hover .hover {
+    display: inherit;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}

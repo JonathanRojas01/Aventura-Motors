@@ -1,0 +1,84 @@
+.btn {
+    transition-duration: .3s;
+}
+
+.btn-change {
+    width: 100px;
+    height: 30px;
+    color: #fff;
+    border-radius: 0;
+    background-color: #1a374d;
+    font-size: 10px;
+    font-weight: 500;
+    border: none;
+    transition-duration: .3s;
+}
+
+.btn-change:hover {
+    color: #fff;
+    background-color: #0033A0;
+}
+
+.btn-ficha {
+    width: 100px;
+    height: 30px;
+    color: #1a374d;
+    border-radius: 0;
+    background-color: #fff;
+    font-size: 10px;
+    font-weight: 500;
+    border: 2px solid #1a374d;
+    transition-duration: .3s;
+}
+
+.btn-ficha img {
+    transition-duration: .3s;
+}
+
+.btn-ficha:hover {
+    color: #fff;
+    background-color: #0033A0;
+    border: 2px solid #0033A0;
+}
+
+.btn-ficha:hover img {
+    filter: invert(1);
+}
+
+.btn-send {
+    width: 300px;
+    height: 50px;
+    color: #fff;
+    border-radius: 0;
+    background-color: #1a374d;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+}
+
+.btn-cotizar {
+    width: 100%;
+    height: 40px;
+    color: #fff;
+    border-radius: 0;
+    background-color: #1a374d;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    transition-duration: .3s;
+}
+
+.btn-cotizar:hover {
+    color: #fff;
+    background-color: #0033A0;
+}
+
+.btn-light {
+    background-color: var(--light-blue);
+}
+
+.btn-send:hover {
+    color: #fff;
+    background-color: #6dc4ed;
+}

@@ -1,0 +1,21 @@
+#seccion-servicios {
+    padding: 200px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#seccion-servicios .box-service {
+    max-width: 420px;
+    padding: 20px;
+    background-color: #505e6af0;
+}
+
+#seccion-servicios .box-service img {
+    height: 50px;
+}
+
+#seccion-servicios .box-service:hover {
+    background-color: #0033A0;
+}
