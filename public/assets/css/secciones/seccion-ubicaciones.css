@@ -1,0 +1,8 @@
+#seccion-ubicaciones {}
+
+#seccion-ubicaciones .box-ubicacion {}
+
+#seccion-ubicaciones .box-ubicacion .ubicacion {
+    border: 1px solid #cadcf2;
+    padding: 20px;
+}
