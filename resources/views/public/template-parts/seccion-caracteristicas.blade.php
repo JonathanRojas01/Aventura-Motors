@@ -21,7 +21,7 @@
         </div>
 
         <div class="col-12 col-md-6 mb-5">
-            <img class="w-100" src="{{ asset('assets/img/caracteristica2.png') }}" data-aos="fade-left">
+            <img class="w-100 parralax1" src="{{ asset('assets/img/caracteristica2.png') }}" data-aos="fade-left">
         </div>
 
         <div class="col-12 col-md-6 mb-5">

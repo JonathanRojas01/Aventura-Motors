@@ -8,7 +8,7 @@
                 <div class="col-12 col-md-4">
                     <div class="row">
                         <div class="col-12 mb-3">
-                            <a class="footer-logo" href="#">
+                            <a class="footer-logo" href="./">
                                 <img src="{{ asset('assets/img/logo2.svg') }}">
                             </a>
                         </div>

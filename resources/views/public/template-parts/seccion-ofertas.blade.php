@@ -10,10 +10,10 @@
         </div>
 
 
-        <div class="box-ofertas d-flex">
+        <div class="mt-5 d-flex">
 
 
-            <div class="item item-oferta" data-aos="zoom-out-up">
+            <div class="item card-oferta" data-aos="zoom-out-up">
                 <div class="item-head position-relative d-flex align-items-end">
                     <span class="text-uppercase f-12 text-white">Nuevo</span>
                     <img src="{{ asset('assets/img/chery.svg') }}" class="marca-float">
@@ -38,7 +38,7 @@
             </div>
 
 
-            <div class="item item-oferta" data-aos="zoom-out-up">
+            <div class="item card-oferta" data-aos="zoom-out-up">
                 <div class="item-head position-relative d-flex align-items-end">
                     <span class="text-uppercase f-12 text-white">Usado</span>
                     <img src="{{ asset('assets/img/fiat.svg') }}" class="marca-float">
@@ -63,7 +63,7 @@
             </div>
 
 
-            <div class="item item-oferta" data-aos="zoom-out-up">
+            <div class="item card-oferta" data-aos="zoom-out-up">
                 <div class="item-head position-relative d-flex align-items-end">
                     <span class="text-uppercase f-12 text-white">Usado</span>
                     <img src="{{ asset('assets/img/subaru.svg') }}" class="marca-float">
@@ -88,7 +88,7 @@
             </div>
 
 
-            <div class="item item-oferta" data-aos="zoom-out-up">
+            <div class="item card-oferta" data-aos="zoom-out-up">
                 <div class="item-head position-relative d-flex align-items-end">
                     <span class="text-uppercase f-12 text-white">Nuevo</span>
                     <img src="{{ asset('assets/img/dodge.svg') }}" class="marca-float">

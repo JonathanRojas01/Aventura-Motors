@@ -12,7 +12,7 @@
         <div class="row">
 
             <div class="col-12 col-md-6 mb-4">
-                <a class="card card-estilo" href="#" style="background-image: url('{{ asset('assets/img/estilo1.png') }}');" data-aos="zoom-in">
+                <a class="card card-estilo left-to-right" href="#" style="background-image: url('{{ asset('assets/img/estilo1.png') }}');" data-aos="zoom-in">
                     <div class="content d-flex justify-content-center align-items-center">
                         <p class="fs-1 fw-bold text-white text-uppercase d-flex align-items-center">CAMIONETAS <img class="ms-2" src="{{ asset('assets/img/small-arrow.svg') }}"></p>
                     </div>
@@ -20,7 +20,7 @@
             </div>
 
             <div class="col-12 col-md-6 mb-4">
-                <a class="card card-estilo" href="#" style="background-image: url('{{ asset('assets/img/estilo2.png') }}');" data-aos="zoom-in">
+                <a class="card card-estilo left-to-right" href="#" style="background-image: url('{{ asset('assets/img/estilo2.png') }}');" data-aos="zoom-in">
                     <div class="content d-flex justify-content-center align-items-center">
                         <p class="fs-1 fw-bold text-white text-uppercase d-flex align-items-center">SUV <img class="ms-2" src="{{ asset('assets/img/small-arrow.svg') }}"></p>
                     </div>
@@ -28,7 +28,7 @@
             </div>
 
             <div class="col-12 col-md-6 mb-4">
-                <a class="card card-estilo" href="#" style="background-image: url('{{ asset('assets/img/estilo3.png') }}');" data-aos="zoom-in">
+                <a class="card card-estilo left-to-right" href="#" style="background-image: url('{{ asset('assets/img/estilo3.png') }}');" data-aos="zoom-in">
                     <div class="content d-flex justify-content-center align-items-center">
                         <p class="fs-1 fw-bold text-white text-uppercase d-flex align-items-center">SEDÁN <img class="ms-2" src="{{ asset('assets/img/small-arrow.svg') }}"></p>
                     </div>
@@ -36,7 +36,7 @@
             </div>
 
             <div class="col-12 col-md-6 mb-4">
-                <a class="card card-estilo" href="#" style="background-image: url('{{ asset('assets/img/estilo4.png') }}');" data-aos="zoom-in">
+                <a class="card card-estilo left-to-right" href="#" style="background-image: url('{{ asset('assets/img/estilo4.png') }}');" data-aos="zoom-in">
                     <div class="content d-flex justify-content-center align-items-center">
                         <p class="fs-1 fw-bold text-white text-uppercase d-flex align-items-center">HATCHBACK <img class="ms-2" src="{{ asset('assets/img/small-arrow.svg') }}"></p>
                     </div>

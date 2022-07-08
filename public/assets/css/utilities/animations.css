@@ -1,0 +1,33 @@
+/*========== Animations ==========*/
+
+.zoom-in-out {
+    animation: zoom-in-out 10s ease infinite;
+}
+
+@keyframes zoom-in-out {
+    0% {
+        background-size: 100% 100%;
+    }
+    50% {
+        background-size: 110% 110%;
+    }
+    100% {
+        background-size: 100% 100%;
+    }
+}
+
+.left-to-right {
+    animation: left-to-right 20s ease infinite;
+}
+
+@keyframes left-to-right {
+    0% {
+        background-position: left;
+    }
+    50% {
+        background-position: right;
+    }
+    100% {
+        background-position: left;
+    }
+}

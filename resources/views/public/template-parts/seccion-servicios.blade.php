@@ -1,4 +1,4 @@
-<section id="seccion-servicios" class="parallax1" style="background-image: url('{{ asset('assets/img/fondo-servicios.png') }}');">
+<section id="seccion-servicios" class="zoom-in-out" style="background-image: url('{{ asset('assets/img/fondo-servicios.png') }}');">
 
 
     <div class="velo2"></div>
