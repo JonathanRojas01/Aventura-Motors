@@ -4,5 +4,26 @@
 
 #seccion-ubicaciones .box-ubicacion .ubicacion {
     border: 1px solid #cadcf2;
-    padding: 20px;
+}
+
+#seccion-ubicaciones .box-ubicacion .ubicacion .lightblue {
+    border-bottom: 1px solid #0098E1;
+}
+
+#seccion-ubicaciones .box-ubicacion .ubicacion table tr:nth-child(2) td {
+    padding-top: 10px;
+}
+
+#seccion-ubicaciones .box-ubicacion .ubicacion table tr td {
+    padding-bottom: 10px;
+}
+
+#seccion-ubicaciones .box-ubicacion .ubicacion table tr td:nth-child(1) {
+    width: 160px;
+}
+
+#seccion-ubicaciones .box-ubicacion .ubicacion iframe {
+    width: 100%;
+    height: 100%;
+    min-height: 260px;
 }
