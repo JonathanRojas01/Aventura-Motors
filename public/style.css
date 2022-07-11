@@ -10,6 +10,7 @@
 @import url('assets/css/components/navbar.css');
 @import url('assets/css/components/forms.css');
 @import url('assets/css/components/filtros.css');
+@import url('assets/css/components/banners.css');
 @import url('assets/css/components/footer.css');
 
 /* Secciones */
@@ -92,6 +93,10 @@ p {
 
 .f-14 {
     font-size: 14px;
+}
+
+.f-60 {
+    font-size: 60px;
 }
 
 .w-100 {

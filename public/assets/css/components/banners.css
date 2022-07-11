@@ -1,0 +1,43 @@
+.banner-2 {
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 200px;
+    padding-bottom: 100px;
+    position: relative;
+}
+
+.banner-2 .bgblue {
+    width: fit-content;
+    background-color: #0033A0;
+    padding: 5px 10px;
+}
+
+.banner-2 .content {
+    width: fit-content;
+    padding: 100px;
+}
+
+.banner-2 .container-marcas {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: -65px;
+    padding: 0 60px;
+}
+
+.banner-2 .container-marcas .box-marca {
+    width: 120px;
+    height: 130px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.banner-2 .container-marcas .box-marca img {
+    width: 100%;
+}
