@@ -4,8 +4,15 @@
     background-position: center;
     background-size: cover;
     margin-bottom: 200px;
-    padding-bottom: 100px;
     position: relative;
+    justify-content: space-between;
+}
+
+.banner-2 .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
 }
 
 .banner-2 .bgblue {
@@ -16,21 +23,20 @@
 
 .banner-2 .content {
     width: fit-content;
-    padding: 100px;
+    padding-top: 160px;
 }
 
 .banner-2 .container-marcas {
-    width: 100%;
     display: flex;
     justify-content: space-between;
-    position: absolute;
-    bottom: -65px;
-    padding: 0 60px;
+    padding: 0;
+    height: 120px;
+    margin-bottom: -60px;
 }
 
 .banner-2 .container-marcas .box-marca {
-    width: 120px;
-    height: 130px;
+    width: 110px;
+    height: 120px;
     background-color: #fff;
     display: flex;
     justify-content: center;

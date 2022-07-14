@@ -1,0 +1,60 @@
+#seccion-otros-servicios {
+    margin-bottom: 100px;
+}
+
+#seccion-otros-servicios .box-service .head-service {
+    height: 260px;
+}
+
+#seccion-otros-servicios .box-service .body-service {
+    position: relative;
+    background-color: #1A374D;
+    padding: 50px 0;
+    transition-duration: .3s;
+}
+
+#seccion-otros-servicios .box-service:hover .body-service {
+    background-color: #0033A0;
+}
+
+#seccion-otros-servicios .box-service:hover .body-service .icon {
+    background-color: #0033A0;
+    transform: rotate(360deg) scale(1.2);
+    border: 1px solid #fff;
+}
+
+#seccion-otros-servicios .box-service .body-service .icon {
+    background-color: #1A374D;
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    border: 1px solid #66737c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -30px;
+    left: calc(50% - 30px);
+    transition-duration: .3s;
+}
+
+#seccion-otros-servicios .box-service .body-service .icon img {
+    width: 40px;
+}
+
+#seccion-otros-servicios .box-service .body-service .btn {
+    width: 160px;
+    height: 40px;
+    background-color: #0033A0;
+    color: #fff;
+    border-radius: 0;
+    position: absolute;
+    bottom: -20px;
+    left: calc(50% - 80px);
+    transition-duration: .3s;
+}
+
+#seccion-otros-servicios .box-service:hover .body-service .btn {
+    border: none;
+    background-color: #0098E1;
+}

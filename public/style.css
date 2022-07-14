@@ -25,7 +25,9 @@
 @import url('assets/css/secciones/seccion-ofertas.css');
 @import url('assets/css/secciones/seccion-marcas.css');
 @import url('assets/css/secciones/seccion-ubicaciones.css');
+@import url('assets/css/secciones/seccion-otros-servicios.css');
 @import url('assets/css/secciones/seccion-banners-main.css');
+@import url('assets/css/secciones/seccion-banners-desabolladura.css');
 
 /* Tipografias */
 
@@ -37,6 +39,10 @@
     --light-blue: #0098E1;
     --blue: #0033A0;
     --gray: #1A374D;
+}
+
+.blue-dark {
+    color: #1A374D !important;
 }
 
 
@@ -93,6 +99,10 @@ p {
 
 .f-14 {
     font-size: 14px;
+}
+
+.f-40 {
+    font-size: 40px;
 }
 
 .f-60 {

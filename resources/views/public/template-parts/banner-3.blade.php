@@ -1,10 +1,10 @@
-<div class="banner banner-2 zoom-in-out" style="background-image: url('{{ asset('assets/img/banner-sala-ventas.png') }}');">
+<div class="banner banner-2 zoom-in-out" style="background-image: url('{{ asset('assets/img/banner-servicio-tecnico.png') }}');">
 
     <div class="container">
 
         <div class="content">
-            <h2 class="text-white f-60">SALAS <br> DE VENTAS</h2>
-            <p class="bgblue text-white">Visita nuestro Showroom y conoce tu próximo auto</p>
+            <h2 class="text-white f-60">SERVICIO TÉCNICO</h2>
+            <p class="bgblue text-white">Nuestros Talleres para cualquier tipo de reparación</p>
         </div>
     
         <div class="container-marcas">

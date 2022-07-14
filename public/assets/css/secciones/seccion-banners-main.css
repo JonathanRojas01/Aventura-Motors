@@ -46,8 +46,6 @@
     display: none;
 }
 
-#seccion-banners-main #carrusel_banners_main .owl-dots button {}
-
 #seccion-banners-main #carrusel_banners_main .owl-dots button span {
     width: 30px;
     height: 5px;
