@@ -1,0 +1,32 @@
+#seccion-servicios-2 {
+    min-height: 500px;
+    position: relative;
+    padding: 100px 0;
+}
+
+#seccion-servicios-2 .marca {
+    position: absolute;
+    top: 0;
+    right: 5%;
+    width: 100px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+}
+
+#seccion-servicios-2 .marca img {
+    width: 100%;
+}
+
+#seccion-servicios-2 .serv img {
+    height: 80px;
+}
+
+#seccion-servicios-2 .border-r {
+    border-right: 1px solid #eeeeee7a;
+}
+
+#seccion-servicios-2 .border-r:last-child {
+    border-right: inherit;
+}

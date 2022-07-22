@@ -1,0 +1,37 @@
+#seccion-financiamiento {
+    min-height: 500px;
+    min-height: 500px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: contain;
+    display: inline-grid;
+}
+
+#seccion-financiamiento .content {
+    width: 45%;
+    height: 100%;
+    padding: 100px 170px 50px 50px;
+    background-color: #34424c;
+    position: relative;
+}
+
+#seccion-financiamiento .content::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -100px;
+    background-color: #34424c;
+    width: 200px;
+    height: 100%;
+    transform: skewX(-20deg);
+}
+
+#seccion-financiamiento .content button {
+    width: 100%;
+    max-width: 300px;
+}
+
+#seccion-financiamiento .content button:hover {
+    background-color: #0033A0;
+    color: #fff;
+}

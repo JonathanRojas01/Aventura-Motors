@@ -73,13 +73,16 @@
                     <a class="nav-link fw-semibold" href="{{ route('page-contacto') }}">Contacto</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link fw-semibold" href="{{ route('single-car') }}">Single</a>
+                    <a class="nav-link fw-semibold" href="{{ route('single-marca') }}">Modelos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link fw-semibold" href="{{ route('single-car') }}">Autos</a>
                 </li>
             </ul>
             
-            <form class="d-flex" role="search">
+            {{-- <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Buscar">
-            </form>
+            </form> --}}
 
         </div>
 

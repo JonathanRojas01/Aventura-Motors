@@ -43,3 +43,23 @@
     background: #fff;
     background: linear-gradient(90deg, #fff 0%, rgba(255, 255, 255, 0.5) 80%);
 }
+
+.box-title .marca {
+    background-color: #fff;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+    box-shadow: 5px 5px 20px 0px #00000021;
+}
+
+.box-title .marca img {
+    width: 100%;
+}
+
+.box-title-center {
+    width: fit-content;
+    margin: 0 auto;
+}

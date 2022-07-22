@@ -26,7 +26,10 @@
 @import url('assets/css/secciones/seccion-marcas.css');
 @import url('assets/css/secciones/seccion-ubicaciones.css');
 @import url('assets/css/secciones/seccion-otros-servicios.css');
+@import url('assets/css/secciones/seccion-servicios-2.css');
 @import url('assets/css/secciones/seccion-banners-main.css');
+@import url('assets/css/secciones/seccion-modelos-internos.css');
+@import url('assets/css/secciones/seccion-financiamiento.css');
 @import url('assets/css/secciones/seccion-banners-desabolladura.css');
 
 /* Tipografias */
@@ -43,6 +46,18 @@
 
 .blue-dark {
     color: #1A374D !important;
+}
+
+.bg-blue {
+    background-color: #0033A0;
+}
+
+.bg-blue-dark {
+    background-color: #1A374D;
+}
+
+.bg-blue:hover {
+    background-color: #0098E1;
 }
 
 
@@ -153,6 +168,15 @@ p {
     left: 0;
     background: rgb(0, 0, 0);
     background: linear-gradient(90deg, rgba(0, 0, 0, 0.7010154403558299) 0%, rgba(0, 0, 0, 0.10157566444546573) 80%);
+}
+
+.velo3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000000a8;
 }
 
 

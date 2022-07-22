@@ -27,3 +27,46 @@
     height: 100%;
     min-height: 260px;
 }
+
+#seccion-ubicaciones .nav-link {
+    background-color: #d2f4ff38;
+    color: #878787;
+    text-transform: uppercase;
+    border-radius: 0;
+    font-weight: 300;
+    border: 0;
+    border-bottom: 0;
+    transition-duration: .3s;
+}
+
+#seccion-ubicaciones .nav-link.active {
+    color: #0033A0;
+    font-weight: 600;
+    background-color: #fff;
+    border: 1px solid #cadcf2;
+    border-bottom: 0;
+}
+
+#seccion-ubicaciones .box-ubicacion .marca {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+}
+
+#seccion-ubicaciones .box-ubicacion .marca img {
+    width: 100%;
+}
+
+#seccion-ubicaciones .btn-ver {
+    width: 100%;
+    max-width: 300px;
+}
+
+#seccion-ubicaciones .btn-ver:hover {
+    background-color: #0033A0;
+    color: #fff;
+}

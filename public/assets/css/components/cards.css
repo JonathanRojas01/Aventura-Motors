@@ -72,3 +72,29 @@
 .card-oferta table .bgblue {
     background-color: #0033a0b5;
 }
+
+.card-oferta .box-btns {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.card-oferta .box-btns button {
+    width: 100px;
+    color: #406882;
+    border: 1px solid #406882;
+    margin-bottom: 5px;
+    background-color: #fff;
+    font-weight: 500;
+    transition-duration: .3s;
+}
+
+.card-oferta .box-btns button:hover {
+    background-color: #0033A0;
+    color: #fff;
+}
+
+.card-oferta .border-t {
+    border-top: 1px solid #cccccc26;
+}
