@@ -30,8 +30,8 @@
                             <p class="blue f-12">2 Versiones</p>
                         </div>
                         <div class="box-btns w-100">
-                            <button>Ver ficha</button>
-                            <button>Ver video</button>
+                            <a href="{{ route('single-car') }}">Ver ficha</a>
+                            <button data-bs-toggle="modal" data-bs-target="#modalVideo">Ver video</button>
                         </div>
                     </div>
                     <table class="w-100"> 
@@ -41,8 +41,8 @@
                         </tr>
                     </table>
                     <div class="d-flex">
-                        <button class="btn btn-cotizar">Ver más</button>
-                        <button class="btn btn-cotizar bg-blue">Cotizar</button>
+                        <a href="{{ route('single-car') }}" class="btn btn-cotizar">Ver más</a>
+                        <button class="btn btn-cotizar bg-blue" data-bs-toggle="modal" data-bs-target="#modalCotizarModelo">Cotizar</button>
                     </div>
                 </div>
             </div>
@@ -61,8 +61,8 @@
                             <p class="blue f-12">2 Versiones</p>
                         </div>
                         <div class="box-btns w-100">
-                            <button>Ver ficha</button>
-                            <button>Ver video</button>
+                            <a href="{{ route('single-car') }}">Ver ficha</a>
+                            <button data-bs-toggle="modal" data-bs-target="#modalVideo">Ver video</button>
                         </div>
                     </div>
                     <table class="w-100"> 
@@ -72,8 +72,8 @@
                         </tr>
                     </table>
                     <div class="d-flex">
-                        <button class="btn btn-cotizar">Ver más</button>
-                        <button class="btn btn-cotizar bg-blue">Cotizar</button>
+                        <a href="{{ route('single-car') }}" class="btn btn-cotizar">Ver más</a>
+                        <button class="btn btn-cotizar bg-blue" data-bs-toggle="modal" data-bs-target="#modalCotizarModelo">Cotizar</button>
                     </div>
                 </div>
             </div>
@@ -91,8 +91,8 @@
                             <p class="blue f-12">2 Versiones</p>
                         </div>
                         <div class="box-btns w-100">
-                            <button>Ver ficha</button>
-                            <button>Ver video</button>
+                            <a href="{{ route('single-car') }}">Ver ficha</a>
+                            <button data-bs-toggle="modal" data-bs-target="#modalVideo">Ver video</button>
                         </div>
                     </div>
                     <table class="w-100"> 
@@ -102,8 +102,8 @@
                         </tr>
                     </table>
                     <div class="d-flex">
-                        <button class="btn btn-cotizar">Ver más</button>
-                        <button class="btn btn-cotizar bg-blue">Cotizar</button>
+                        <a href="{{ route('single-car') }}" class="btn btn-cotizar">Ver más</a>
+                        <button class="btn btn-cotizar bg-blue" data-bs-toggle="modal" data-bs-target="#modalCotizarModelo">Cotizar</button>
                     </div>
                 </div>
             </div>
@@ -121,8 +121,8 @@
                             <p class="blue f-12">2 Versiones</p>
                         </div>
                         <div class="box-btns w-100">
-                            <button>Ver ficha</button>
-                            <button>Ver video</button>
+                            <a href="{{ route('single-car') }}">Ver ficha</a>
+                            <button data-bs-toggle="modal" data-bs-target="#modalVideo">Ver video</button>
                         </div>
                     </div>
                     <table class="w-100"> 
@@ -132,8 +132,8 @@
                         </tr>
                     </table>
                     <div class="d-flex">
-                        <button class="btn btn-cotizar">Ver más</button>
-                        <button class="btn btn-cotizar bg-blue">Cotizar</button>
+                        <a href="{{ route('single-car') }}" class="btn btn-cotizar">Ver más</a>
+                        <button class="btn btn-cotizar bg-blue" data-bs-toggle="modal" data-bs-target="#modalCotizarModelo">Cotizar</button>
                     </div>
                 </div>
             </div>
@@ -151,8 +151,8 @@
                             <p class="blue f-12">2 Versiones</p>
                         </div>
                         <div class="box-btns w-100">
-                            <button>Ver ficha</button>
-                            <button>Ver video</button>
+                            <a href="{{ route('single-car') }}">Ver ficha</a>
+                            <button data-bs-toggle="modal" data-bs-target="#modalVideo">Ver video</button>
                         </div>
                     </div>
                     <table class="w-100"> 
@@ -162,8 +162,8 @@
                         </tr>
                     </table>
                     <div class="d-flex">
-                        <button class="btn btn-cotizar">Ver más</button>
-                        <button class="btn btn-cotizar bg-blue">Cotizar</button>
+                        <a href="{{ route('single-car') }}" class="btn btn-cotizar">Ver más</a>
+                        <button class="btn btn-cotizar bg-blue" data-bs-toggle="modal" data-bs-target="#modalCotizarModelo">Cotizar</button>
                     </div>
                 </div>
             </div>
@@ -177,3 +177,18 @@
 
 
 </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

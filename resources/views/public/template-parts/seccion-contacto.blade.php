@@ -1,4 +1,4 @@
-<section id="seccion-contacto" class="section imgCover" style="background-image: url('{{ asset('assets/img/fondo-contacto.png') }}');">
+<section id="seccion-contacto" class="section imgCover zoom-in-out" style="background-image: url('{{ asset('assets/img/fondo-contacto.png') }}');">
 
     <div class="velo"></div>
 
@@ -8,7 +8,7 @@
         
             <div class="col-12 col-md-6">
 
-                <div class="box-title mb-4">
+                <div class="box-title mb-4" data-aos="fade-left">
                     <h3 class="text-uppercase fs-2 fw-light text-white fw-bolder">Contactenos</span></h3>
                     <p class="fw-normal text-white">Bajada en un máximo de 1  línea con CTA</p>
                 </div>

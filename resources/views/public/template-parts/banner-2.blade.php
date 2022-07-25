@@ -1,6 +1,8 @@
 <div class="banner banner-2 zoom-in-out" style="background-image: url('{{ asset('assets/img/banner-sala-ventas.png') }}');">
 
-    <div class="container">
+    <div class="velo2"></div>
+
+    <div class="container position-relative">
 
         <div class="content">
             <h2 class="text-white f-60">SALAS <br> DE VENTAS</h2>
@@ -9,45 +11,45 @@
     
         <div class="container-marcas">
         
-            <div class="box-marca" data-aos="flip-left">
+            <a href="{{ route('single-marca') }}" class="box-marca" data-aos="flip-left">
                 <img src="{{ asset('assets/img/marca1.svg') }}">
-            </div>
-    
-            <div class="box-marca" data-aos="flip-left">
+            </a>
+            
+            <a href="{{ route('single-marca') }}" class="box-marca" data-aos="flip-left">
                 <img src="{{ asset('assets/img/marca2.svg') }}">
-            </div>
-    
-            <div class="box-marca" data-aos="flip-left">
+            </a>
+
+            <a href="{{ route('single-marca') }}" class="box-marca" data-aos="flip-left">
                 <img src="{{ asset('assets/img/marca3.svg') }}">
-            </div>
-    
-            <div class="box-marca" data-aos="flip-left">
+            </a>
+
+            <a href="{{ route('single-marca') }}" class="box-marca" data-aos="flip-left">
                 <img src="{{ asset('assets/img/marca4.svg') }}">
-            </div>
-    
-            <div class="box-marca" data-aos="flip-left">
+            </a>
+
+            <a href="{{ route('single-marca') }}" class="box-marca" data-aos="flip-left">
                 <img src="{{ asset('assets/img/marca5.svg') }}">
-            </div>
-    
-            <div class="box-marca" data-aos="flip-left">
+            </a>
+
+            <a href="{{ route('single-marca') }}" class="box-marca" data-aos="flip-left">
                 <img src="{{ asset('assets/img/marca6.svg') }}">
-            </div>
-    
-            <div class="box-marca" data-aos="flip-left">
+            </a>
+
+            <a href="{{ route('single-marca') }}" class="box-marca" data-aos="flip-left">
                 <img src="{{ asset('assets/img/marca7.svg') }}">
-            </div>
-    
-            <div class="box-marca" data-aos="flip-left">
+            </a>
+
+            <a href="{{ route('single-marca') }}" class="box-marca" data-aos="flip-left">
                 <img src="{{ asset('assets/img/marca8.svg') }}">
-            </div>
-    
-            <div class="box-marca" data-aos="flip-left">
+            </a>
+
+            <a href="{{ route('single-marca') }}" class="box-marca" data-aos="flip-left">
                 <img src="{{ asset('assets/img/marca9.svg') }}">
-            </div>
-    
-            <div class="box-marca" data-aos="flip-left">
+            </a>
+
+            <a href="{{ route('single-marca') }}" class="box-marca" data-aos="flip-left">
                 <img src="{{ asset('assets/img/marca10.svg') }}">
-            </div>
+            </a>
     
         </div>
 

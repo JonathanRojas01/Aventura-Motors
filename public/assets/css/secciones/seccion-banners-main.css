@@ -104,3 +104,7 @@
     width: 16px;
     transition-duration: .3s;
 }
+
+.seccion-banners-modelos .owl-dots {
+    bottom: 50px !important;
+}

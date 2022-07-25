@@ -47,13 +47,14 @@ Route::prefix('/admin')->group(function(){
 /**
  * RUTAS PUBLICAS
  */
-Route::view('/', 'public.index');
-Route::view('/nuevos', 'public.page-nuevos')->name('page-nuevos');
-Route::view('/usados', 'public.page-usados')->name('page-usados');
-Route::view('/sala-ventas', 'public.page-sala-ventas')->name('page-sala-ventas');
+Route::view('/',                 'public.index');
+Route::view('/bases-legales',    'public.page-bases-legales')->name('page-bases-legales');
+Route::view('/nuevos',           'public.page-nuevos')->name('page-nuevos');
+Route::view('/usados',           'public.page-usados')->name('page-usados');
+Route::view('/sala-ventas',      'public.page-sala-ventas')->name('page-sala-ventas');
 Route::view('/servicio-tecnico', 'public.page-servicio-tecnico')->name('page-servicio-tecnico');
-Route::view('/desabolladura', 'public.page-desabolladura')->name('page-desabolladura');
-Route::view('/otros', 'public.page-otros')->name('page-otros');
-Route::view('/contacto', 'public.page-contacto')->name('page-contacto');
-Route::view('/single-car', 'public.single-car')->name('single-car');
-Route::view('/single-marca', 'public.single-marca')->name('single-marca');
+Route::view('/desabolladura',    'public.page-desabolladura')->name('page-desabolladura');
+Route::view('/otros',            'public.page-otros')->name('page-otros');
+Route::view('/contacto',         'public.page-contacto')->name('page-contacto');
+Route::view('/single-car',       'public.single-car')->name('single-car');
+Route::view('/single-marca',     'public.single-marca')->name('single-marca');

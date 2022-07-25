@@ -1,4 +1,6 @@
-#filtros {}
+#filtros {
+    margin-right: 50px;
+}
 
 #filtros .accordion-filtros {}
 
@@ -16,6 +18,35 @@
     color: #0033A0;
 }
 
+#filtros .accordion-body {
+    padding: 20px 0;
+}
+
+#filtros .accordion-filtros .accordion-button::after {
+    display: none;
+}
+
+#filtros .accordion-filtros .accordion-button>div {
+    width: 100%;
+    justify-content: inherit;
+    align-items: center;
+}
+
+#filtros .accordion-filtros .accordion-item button {
+    justify-content: space-between;
+    padding: 20px 0;
+    padding-right: 10px;
+}
+
+#filtros .accordion-filtros .accordion-item button img {
+    transform: rotate(90deg);
+    margin-left: 20px;
+}
+
+#filtros .accordion-filtros .accordion-item button p {
+    font-size: 14px;
+}
+
 #filtros .accordion-filtros .accordion-item button:focus:not(:focus-visible) {
     outline: 0;
     box-shadow: inherit;
@@ -30,6 +61,7 @@
 #filtros .accordion-filtros .accordion-item ul li a {
     text-decoration: none;
     color: #1A374D;
+    font-size: 14px;
 }
 
 #filtros .accordion-filtros .accordion-item ul li a:hover {

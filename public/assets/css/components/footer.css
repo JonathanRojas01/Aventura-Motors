@@ -5,3 +5,25 @@ footer {
 footer .footer-logo img {
     width: 200px;
 }
+
+footer .input-news {
+    border-radius: 0;
+}
+
+footer .btn-news {
+    border-radius: 0;
+    background-color: #0033A0;
+    border: 1px solid #0033A0;
+}
+
+footer .footer-logo img {
+    transition-duration: .3s;
+}
+
+footer .footer-logo:hover img {
+    transform: scale(1.1);
+}
+
+footer .trabaja a {
+    text-decoration: none;
+}

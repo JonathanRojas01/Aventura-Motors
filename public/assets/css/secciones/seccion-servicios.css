@@ -10,6 +10,8 @@
     max-width: 420px;
     padding: 20px;
     background-color: #505e6af0;
+    text-decoration: none;
+    transition-duration: .3s;
 }
 
 #seccion-servicios .box-service img {

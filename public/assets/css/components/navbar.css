@@ -6,6 +6,7 @@
 .barra-top a {
     color: #fff;
     font-size: 10px;
+    transition-duration: .3s;
 }
 
 .barra-top a {
@@ -15,6 +16,26 @@
 
 .barra-top a:hover {
     font-weight: 500;
+}
+
+.barra-top .link-estado {
+    padding: 0 20px;
+    transition-duration: .3s;
+}
+
+.barra-top .link-estado:hover {
+    background-color: #fff;
+    color: #0033A0;
+}
+
+.barra-top .link-estado img {
+    margin-left: 10px;
+    transition-duration: .3s;
+}
+
+.barra-top .link-estado:hover img {
+    margin-left: 20px;
+    filter: invert(1);
 }
 
 .navbar .nav-item {
@@ -41,4 +62,9 @@
 
 .navbar .navbar-logo img {
     width: 200px;
+    transition-duration: .3s;
+}
+
+.navbar .navbar-logo:hover img {
+    transform: scale(1.1);
 }

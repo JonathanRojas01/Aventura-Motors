@@ -42,6 +42,12 @@
     justify-content: center;
     align-items: center;
     padding: 10px;
+    box-shadow: 0px 0px 20px 0px #0000005e;
+    transition-duration: .3s;
+}
+
+.banner-2 .container-marcas .box-marca:hover {
+    transform: scale(1.05);
 }
 
 .banner-2 .container-marcas .box-marca img {

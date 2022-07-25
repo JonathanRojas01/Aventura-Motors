@@ -1,4 +1,4 @@
-<section id="seccion-banners-main">
+<section id="seccion-banners-main" class="seccion-banners-modelos">
 
 
 

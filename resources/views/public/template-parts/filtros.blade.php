@@ -11,7 +11,10 @@
         <div class="accordion-item">
             <h2 class="accordion-header" id="heading1">
                 <button class="accordion-button blue" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
-                    <p class="text-uppercase me-5">Categorías</p> <p>(07)</p>
+                    <div class="d-flex">
+                        <p class="text-uppercase me-5">Categorías</p> <p>(07)</p>
+                    </div>
+                    <img src="{{ asset('assets/img/arrow-drop-up.svg') }}">
                 </button>
             </h2>
             <div id="collapse1" class="accordion-collapse collapse show" aria-labelledby="heading1" data-bs-parent="#accordionFiltros">
@@ -103,7 +106,9 @@
             </h2>
             <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionFiltros">
                 <div class="accordion-body">
-                    
+                    <form class="multi-range-field m-0">
+                        <input id="multi3" class="multi-range" type="range" />
+                    </form>
                 </div>
             </div>
         </div>
@@ -112,13 +117,15 @@
         <!-- Año -->
         <div class="accordion-item">
             <h2 class="accordion-header" id="heading5">
-                <button class="accordion-button blue" type="button" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="true" aria-controls="collapse5">
+                <button class="accordion-button blue" type="button" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="true" aria-controls="collapse6">
                     <p class="text-uppercase me-5">Año</p>
                 </button>
             </h2>
-            <div id="collapse5" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionFiltros">
+            <div id="collapse6" class="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionFiltros">
                 <div class="accordion-body">
-                    
+                    <form class="multi-range-field m-0">
+                        <input id="multi3" class="multi-range" type="range" />
+                    </form>
                 </div>
             </div>
         </div>

@@ -39,7 +39,7 @@
                     <td class="p-10 f-14 fs-5 text-white fw-semibold">$ <span class="count">10.000.000</span></td>
                 </tr>
             </table>
-            <button class="btn btn-cotizar">Cotizar</button>
+            <button class="btn btn-cotizar" data-bs-toggle="modal" data-bs-target="#modalCotizarModelo">Cotizar</button>
         </div>
 
         <div class="item item-version" data-aos="flip-right">
@@ -73,7 +73,7 @@
                     <td class="p-10 f-14 fs-5 text-white fw-semibold">$ <span class="count">35.000.000</span></td>
                 </tr>
             </table>
-            <button class="btn btn-cotizar">Cotizar</button>
+            <button class="btn btn-cotizar" data-bs-toggle="modal" data-bs-target="#modalCotizarModelo">Cotizar</button>
         </div>
 
         <div class="item item-version" data-aos="flip-right">
@@ -107,7 +107,7 @@
                     <td class="p-10 f-14 fs-5 text-white fw-semibold">$ <span class="count">22.000.000</span></td>
                 </tr>
             </table>
-            <button class="btn btn-cotizar">Cotizar</button>
+            <button class="btn btn-cotizar" data-bs-toggle="modal" data-bs-target="#modalCotizarModelo">Cotizar</button>
         </div>
 
     </div>
@@ -117,3 +117,8 @@
 
     
 </section>
+
+
+
+
+

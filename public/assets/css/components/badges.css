@@ -1,0 +1,12 @@
+.badge {
+    min-width: 100px;
+    background-color: #0033A0 !important;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition-duration: .3s;
+}
+
+.badge:hover {
+    transform: scale(1.1);
+}

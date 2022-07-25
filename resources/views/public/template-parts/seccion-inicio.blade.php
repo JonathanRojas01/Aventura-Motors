@@ -1,6 +1,17 @@
 <section id="seccion-inicio" class="mt-5">
 
+
+
     <div class="container">
+
+
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="/">Inicio</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Todos los automóviles</li>
+            </ol>
+        </nav>
+
 
         <div class="row">
 
@@ -15,7 +26,7 @@
                         <img class="img-marca" src="{{ asset('assets/img/marca1.svg') }}" data-aos="flip-up">
                         <div class="box-btns d-flex justify-content-evenly align-items-center">
                             <button class="btn-change btn-toggle-slider">Ver interior</button>
-                            <button class="btn-ficha d-flex justify-content-between align-items-center">Ficha Técnica <img class="ms-2" src="{{ asset('assets/img/icon-pdf.svg') }}"></button>
+                            <a href="https://aventuramotors.cl/wp-content/uploads/2022/06/Ficha-Tecnica-Jeep-Commander.pdf" target="blank" class="btn-ficha d-flex align-items-center">Ficha Técnica <img class="ms-2" src="{{ asset('assets/img/icon-pdf.svg') }}"></a>
                         </div>
                     </div>
 
@@ -39,6 +50,7 @@
                             <img class="img-car" src="{{ asset('assets/img/slide-main-6.jpg') }}">
                         </div>
                     </div>
+                    
                     <div class="owl-thumbs mt-2" data-slider-id="1">
                         <div class="owl-thumb-item" style="background-image: url('{{ asset('assets/img/slide-main-1.png') }}');" data-aos="fade-up"></div>
                         <div class="owl-thumb-item" style="background-image: url('{{ asset('assets/img/slide-main-2.jpg') }}');" data-aos="fade-up"></div>
@@ -57,7 +69,7 @@
                         <img class="img-marca" src="{{ asset('assets/img/marca1.svg') }}" data-aos="flip-up">
                         <div class="box-btns d-flex justify-content-evenly align-items-center">
                             <button class="btn-change btn-toggle-slider">Ver exterior</button>
-                            <button class="btn-ficha d-flex justify-content-between align-items-center">Ficha Técnica <img class="ms-2" src="{{ asset('assets/img/icon-pdf.svg') }}"></button>
+                            <a href="https://aventuramotors.cl/wp-content/uploads/2022/06/Ficha-Tecnica-Jeep-Commander.pdf" target="blank" class="btn-ficha d-flex align-items-center">Ficha Técnica <img class="ms-2" src="{{ asset('assets/img/icon-pdf.svg') }}"></a>
                         </div>
                     </div>
 
@@ -81,6 +93,7 @@
                             <img class="img-car" src="{{ asset('assets/img/slide-interior-6.jpg') }}">
                         </div>
                     </div>
+                    
                     <div class="owl-thumbs mt-2" data-slider-id="2">
                         <div class="owl-thumb-item" style="background-image: url('{{ asset('assets/img/slide-interior-1.png') }}');"></div>
                         <div class="owl-thumb-item" style="background-image: url('{{ asset('assets/img/slide-interior-2.jpg') }}');"></div>
@@ -96,7 +109,7 @@
 
 
 
-            <div class="col-12 col-md-5">
+            <div class="col-12 col-md-5 box-form">
             
 
                 <!-- Titulo -->
@@ -219,6 +232,9 @@
 
         </div>
 
+
     </div>
+
+
 
 </section>

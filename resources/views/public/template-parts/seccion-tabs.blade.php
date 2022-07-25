@@ -63,7 +63,7 @@
 
 
 
-
+        <!-- Tab Vista 360° -->
         <div class="tab-pane fade" id="vista-tab-pane" role="tabpanel" aria-labelledby="vista-tab" tabindex="0">
         
             <div class="box-title my-5">
@@ -78,6 +78,7 @@
         
         
         
+        <!-- Tab Video -->
         <div class="tab-pane fade" id="video-tab-pane" role="tabpanel" aria-labelledby="video-tab" tabindex="0">
         
             <video
@@ -89,8 +90,6 @@
                 height="400"
                 poster="{{ asset('assets/img/fondo-video.jpg') }}"
                 data-setup="{}">
-                <source src="{{ asset('assets/videos/video-auto.mp4') }}" type="video/mp4" />
-                <source src="{{ asset('assets/videos/video-auto.mp4') }}" type="video/webm" />
             </video>
 
         </div>
@@ -98,8 +97,9 @@
 
 
         
+        <!-- Tab Recorrido virtual -->
         <div class="tab-pane fade" id="recorrido-tab-pane" role="tabpanel" aria-labelledby="recorrido-tab" tabindex="0">
-            <p class="text-center">No hay recorrido virtual disponible para este modelo</p>
+            <p class="text-center mt-5">No hay recorrido virtual disponible para este modelo</p>
         </div>
         
 

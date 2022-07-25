@@ -58,31 +58,31 @@
     height: 120px;
 }
 
-#seccion-inicio .box-caracteristicas {
+.box-form .box-caracteristicas {
     border-top: 1px solid #406882;
     border-bottom: 1px solid #406882;
     padding: 10px;
 }
 
-#seccion-inicio .box-caracteristicas p {
+.box-form .box-caracteristicas p {
     color: #406882;
 }
 
-#seccion-inicio .form-cotizacion label {
+.box-form .form-cotizacion label {
     margin: 0;
     color: #1A374D;
 }
 
-#seccion-inicio .form-cotizacion input,
-#seccion-inicio .form-cotizacion textarea,
-#seccion-inicio .form-cotizacion select {
+.box-form .form-cotizacion input,
+.box-form .form-cotizacion textarea,
+.box-form .form-cotizacion select {
     border: none;
     border-radius: 0;
     background-color: #F1F1F1;
     color: #1A374D;
 }
 
-#seccion-inicio .form-cotizacion input::placeholder,
-#seccion-inicio .form-cotizacion textarea::placeholder {
+.box-form .form-cotizacion input::placeholder,
+.box-form .form-cotizacion textarea::placeholder {
     color: #1A374D;
 }

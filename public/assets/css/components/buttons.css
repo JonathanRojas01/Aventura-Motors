@@ -27,6 +27,8 @@
     background-color: #fff;
     font-size: 10px;
     font-weight: 500;
+    justify-content: inherit;
+    text-decoration: none;
     border: 2px solid #1a374d;
     transition-duration: .3s;
 }
@@ -66,12 +68,23 @@
     font-size: 14px;
     font-weight: 500;
     border: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transition-duration: .3s;
 }
 
 .btn-cotizar:hover {
     color: #fff;
     background-color: #0033A0;
+}
+
+.btn-cotizar:active,
+.btn-cotiza:focus {
+    background-color: #0033A0;
+    color: #fff;
+    box-shadow: none !important;
 }
 
 .btn-light {
@@ -97,4 +110,15 @@
 
 .btn-search:hover {
     background-color: #1a374d;
+}
+
+.btn-check:active+.btn,
+.btn-check:checked+.btn,
+.btn.active,
+.btn.show,
+.btn:active {
+    color: #fff !important;
+    border: 1px solid #0033A0 !important;
+    background-color: #0033A0 !important;
+    box-shadow: inherit !important;
 }

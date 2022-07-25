@@ -1,0 +1,7 @@
+#seccion-bases {}
+
+#seccion-bases .tab-content {}
+
+#seccion-bases .tab-content .tab-pane {
+    padding: 0 50px;
+}

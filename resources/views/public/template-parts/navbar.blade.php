@@ -2,24 +2,24 @@
 <div class="barra-top p-1">
     <div class="container d-flex justify-content-between align-content-center">
         
-        <a href="#" class="text-uppercase d-flex align-items-center fw-semibold">Consulta el estado  de tu vehículo aquí <img class="ms-2" src="{{ asset('assets/img/small-arrow.svg') }}"></a>
+        <a href="https://www.sigaerp.net/AventuraOT/" target="blank" class="link-estado text-uppercase d-flex align-items-center fw-semibold">Consulta el estado  de tu vehículo aquí <img src="{{ asset('assets/img/small-arrow.svg') }}"></a>
 
         <div class="d-flex justify-content-between align-items-center">
 
             <p>CALL CENTER +562 2411 5500</p>
             
-            <a class="mx-4" href="#">BASES LEGALES</a>
+            <a class="mx-4" href="{{ route('page-bases-legales') }}">BASES LEGALES</a>
             
             <div class="rrss">
-                <a href="#">
+                <a href="https://www.facebook.com/AventuraMotors/" target="blank">
                     <img class="normal" src="{{ asset('assets/img/facebook.svg') }}">
                     <img class="hover" src="{{ asset('assets/img/facebook-hover.svg') }}">
                 </a>
-                <a href="#">
+                <a href="https://www.instagram.com/aventura_motors/" target="blank">
                     <img class="normal" src="{{ asset('assets/img/instagram.svg') }}">
                     <img class="hover" src="{{ asset('assets/img/instagram-hover.svg') }}">
                 </a>
-                <a href="#">
+                <a href="https://www.youtube.com/channel/UCzilVvy7V7SOKkW1ULDl7uw" target="blank">
                     <img class="normal" src="{{ asset('assets/img/youtube.svg') }}">
                     <img class="hover" src="{{ asset('assets/img/youtube-hover.svg') }}">
                 </a>

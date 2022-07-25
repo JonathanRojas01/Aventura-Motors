@@ -1,0 +1,41 @@
+.menu-bases {}
+
+.menu-bases nav .nav {
+    border-bottom: none;
+}
+
+.menu-bases nav .nav button {
+    border: none;
+    text-align: left;
+    padding: 0;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    color: #1A374D;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    transition-duration: .3s;
+}
+
+.menu-bases nav .nav button:hover {
+    color: #2b5677;
+}
+
+.menu-bases nav .nav button.active {
+    color: #0033A0;
+    font-weight: 500;
+}
+
+.menu-bases nav .nav button span {
+    width: 200px;
+}
+
+.menu-bases nav .nav button img {
+    filter: grayscale(1);
+    transition-duration: .3s;
+}
+
+.menu-bases nav .nav button.active img {
+    filter: inherit;
+    margin-left: 10px;
+}

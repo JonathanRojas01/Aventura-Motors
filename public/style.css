@@ -5,13 +5,18 @@
 /* Components */
 
 @import url('assets/css/components/buttons.css');
+@import url('assets/css/components/badges.css');
+@import url('assets/css/components/dropdowns.css');
+@import url('assets/css/components/breadcrumb.css');
 @import url('assets/css/components/cards.css');
 @import url('assets/css/components/titles.css');
 @import url('assets/css/components/navbar.css');
 @import url('assets/css/components/forms.css');
 @import url('assets/css/components/filtros.css');
 @import url('assets/css/components/banners.css');
+@import url('assets/css/components/modales.css');
 @import url('assets/css/components/footer.css');
+@import url('assets/css/components/menu-bases.css');
 
 /* Secciones */
 
@@ -24,6 +29,7 @@
 @import url('assets/css/secciones/seccion-servicios.css');
 @import url('assets/css/secciones/seccion-ofertas.css');
 @import url('assets/css/secciones/seccion-marcas.css');
+@import url('assets/css/secciones/seccion-bases.css');
 @import url('assets/css/secciones/seccion-ubicaciones.css');
 @import url('assets/css/secciones/seccion-otros-servicios.css');
 @import url('assets/css/secciones/seccion-servicios-2.css');
@@ -81,12 +87,12 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: #0eaeb9;
+    background-color: #0033A0;
     border-radius: 5px;
 }
 
 body::-webkit-scrollbar-thumb:hover {
-    background-color: #066168;
+    background-color: #1a374d;
     box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
 }
 
@@ -96,7 +102,7 @@ body::-webkit-scrollbar-thumb:active {
 
 body::-webkit-scrollbar-track {
     width: 8px;
-    background-color: #088791;
+    background-color: #6dc4ed;
 }
 
 body::-webkit-scrollbar-track:hover,
@@ -200,4 +206,8 @@ p {
 
 .hide {
     display: none;
+}
+
+.border-b {
+    border-bottom: 1px solid #40688247;
 }
