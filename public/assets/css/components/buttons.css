@@ -30,6 +30,9 @@
     justify-content: inherit;
     text-decoration: none;
     border: 2px solid #1a374d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transition-duration: .3s;
 }
 

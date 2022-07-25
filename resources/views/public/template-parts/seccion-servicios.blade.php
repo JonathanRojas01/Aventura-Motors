@@ -9,7 +9,7 @@
         <div class="row">
 
 
-            <div class="col-12 col-md-4 d-flex align-items-center">
+            <div class="col-12 col-md-4 d-flex align-items-center mb-5">
                 <div class="box-title2" data-aos="fade-right">
                     <h3 class="text-white text-uppercase fw-bold">Servicios</h3>
                     <p class="text-white">Bajada en 2 líneas con CTA. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
@@ -20,7 +20,7 @@
                 <div class="row">
                     
                     <div class="col-12 col-md-6 mb-3">
-                        <a href="{{ route('page-otros') }}" class="box-service d-flex align-items-center" data-aos="flip-up">
+                        <a href="{{ route('page-otros') }}" class="box-service d-flex align-items-center m-auto" data-aos="flip-up">
                             <img class="me-3" src="{{ asset('assets/img/detail1.svg') }}">
                             <div class="text-white">
                                 <h6>CAR DETAILING</h6>
@@ -30,7 +30,7 @@
                     </div>
 
                     <div class="col-12 col-md-6 mb-3">
-                        <a href="{{ route('page-otros') }}" class="box-service d-flex align-items-center" data-aos="flip-up">
+                        <a href="{{ route('page-otros') }}" class="box-service d-flex align-items-center m-auto" data-aos="flip-up">
                             <img class="me-3" src="{{ asset('assets/img/detail2.svg') }}">
                             <div class="text-white">
                                 <h6>DESABOLLADURA Y PINTURA</h6>
@@ -40,7 +40,7 @@
                     </div>
 
                     <div class="col-12 col-md-6 mb-3">
-                        <a href="{{ route('page-otros') }}" class="box-service d-flex align-items-center" data-aos="flip-up">
+                        <a href="{{ route('page-otros') }}" class="box-service d-flex align-items-center m-auto" data-aos="flip-up">
                             <img class="me-3" src="{{ asset('assets/img/detail3.svg') }}" style="height: 30px;">
                             <div class="text-white">
                                 <h6>TEST DRIVE</h6>
@@ -50,7 +50,7 @@
                     </div>
 
                     <div class="col-12 col-md-6 mb-3">
-                        <a href="{{ route('page-otros') }}" class="box-service d-flex align-items-center" data-aos="flip-up">
+                        <a href="{{ route('page-otros') }}" class="box-service d-flex align-items-center m-auto" data-aos="flip-up">
                             <img class="me-3" src="{{ asset('assets/img/detail4.svg') }}">
                             <div class="text-white">
                                 <h6>FLOTAS</h6>

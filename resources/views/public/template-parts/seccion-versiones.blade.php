@@ -15,7 +15,7 @@
             </div>
             <div class="item-body">
                 <div class="d-flex justify-content-between align-items-center">
-                    <h6 class="text-uppercase blue m-0">grand cherokee</h6> <button class="btn-ficha" data-aos="zoom-in">Ver ficha</button>
+                    <h6 class="text-uppercase blue m-0">grand cherokee</h6> <a href="{{ route('single-car') }}" class="btn-ficha" data-aos="zoom-in">Ver ficha</a>
                 </div>
                 <p class="blue f-12">LIMITED 4X4 3.6L</p>
                 <table class="mt-3 w-100">
@@ -49,8 +49,7 @@
             </div>
             <div class="item-body">
                 <div class="d-flex justify-content-between align-items-center">
-                    <h6 class="text-uppercase blue m-0">grand cherokee</h6> <button class="btn-ficha" data-aos="zoom-in">Ver ficha</button>
-                </div>
+                    <h6 class="text-uppercase blue m-0">grand cherokee</h6> <a href="{{ route('single-car') }}" class="btn-ficha" data-aos="zoom-in">Ver ficha</a></div>
                 <p class="blue f-12">LIMITED 4X4 3.6L</p>
                 <table class="mt-3 w-100">
                     <tr>
@@ -83,8 +82,7 @@
             </div>
             <div class="item-body">
                 <div class="d-flex justify-content-between align-items-center">
-                    <h6 class="text-uppercase blue m-0">grand cherokee</h6> <button class="btn-ficha" data-aos="zoom-in">Ver ficha</button>
-                </div>
+                    <h6 class="text-uppercase blue m-0">grand cherokee</h6> <a href="{{ route('single-car') }}" class="btn-ficha" data-aos="zoom-in">Ver ficha</a></div>
                 <p class="blue f-12">LIMITED 4X4 3.6L</p>
                 <table class="mt-3 w-100">
                     <tr>

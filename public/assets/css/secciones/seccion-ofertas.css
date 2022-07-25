@@ -9,3 +9,12 @@
 #seccion-ofertas .btn-cotizas:hover {
     background-color: #0033A0;
 }
+
+#seccion-ofertas .btn-ver {
+    width: 100%;
+    max-width: 400px;
+}
+
+#seccion-ofertas .btn-ver:hover {
+    color: #fff;
+}

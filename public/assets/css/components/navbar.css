@@ -68,3 +68,32 @@
 .navbar .navbar-logo:hover img {
     transform: scale(1.1);
 }
+
+@media (max-width: 1200px) {
+    .barra-top {
+        display: none;
+    }
+    .navbar .navbar-logo img {
+        width: 140px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-toggler {
+        border: none;
+    }
+    .navbar-nav {
+        margin-top: 40px;
+    }
+    .navbar-collapse.collapse.show .nav-item {
+        margin: 0;
+        margin-bottom: 10px;
+    }
+    .navbar .nav-item .nav-link {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {}
+
+@media (max-width: 576px) {}

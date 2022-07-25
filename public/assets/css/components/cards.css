@@ -38,6 +38,18 @@
     height: 230px;
 }
 
+#seccion-modelos-internos .item-head .img-version-hover {
+    display: none;
+}
+
+#seccion-modelos-internos .item-head:hover .img-version {
+    display: none;
+}
+
+#seccion-modelos-internos .item-head:hover .img-version-hover {
+    display: block;
+}
+
 .card-oferta .item-head span {
     position: absolute;
     top: 10px;

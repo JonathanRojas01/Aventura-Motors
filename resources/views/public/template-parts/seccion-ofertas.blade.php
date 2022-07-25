@@ -10,7 +10,7 @@
         </div>
 
 
-        <div class="mt-5 d-flex">
+        <div id="slider-ofertas-destacadas" class="owl-carousel owl-theme mt-5">
 
 
             <div class="item card-oferta" data-aos="zoom-out-up">
@@ -113,6 +113,10 @@
             </div>
 
 
+        </div>
+
+        <div class="text-center mt-5">
+            <button class="btn btn-search btn-ver">ver todos los automóviles</button>
         </div>
 
 

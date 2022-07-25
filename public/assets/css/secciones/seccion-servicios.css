@@ -21,3 +21,35 @@
 #seccion-servicios .box-service:hover {
     background-color: #0033A0;
 }
+
+
+/* Res-1200 */
+
+@media (max-width: 1200px) {
+    #seccion-servicios .box-service {
+        padding: 10px;
+    }
+    #seccion-servicios .box-service img {
+        width: 30px;
+        height: 30px;
+    }
+    #seccion-servicios .box-service h6,
+    #seccion-servicios .box-service p {
+        font-size: 12px;
+    }
+}
+
+
+/* Res-992 */
+
+@media (max-width: 992px) {}
+
+
+/* Res-768 */
+
+@media (max-width: 768px) {}
+
+
+/* Res-576 */
+
+@media (max-width: 576px) {}

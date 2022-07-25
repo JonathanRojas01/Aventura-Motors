@@ -6,6 +6,7 @@
 
 @import url('assets/css/components/buttons.css');
 @import url('assets/css/components/badges.css');
+@import url('assets/css/components/pagination.css');
 @import url('assets/css/components/dropdowns.css');
 @import url('assets/css/components/breadcrumb.css');
 @import url('assets/css/components/cards.css');
@@ -37,6 +38,10 @@
 @import url('assets/css/secciones/seccion-modelos-internos.css');
 @import url('assets/css/secciones/seccion-financiamiento.css');
 @import url('assets/css/secciones/seccion-banners-desabolladura.css');
+
+/* Responsive */
+
+@import url('assets/css/responsive.css');
 
 /* Tipografias */
 

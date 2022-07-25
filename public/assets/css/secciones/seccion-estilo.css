@@ -6,3 +6,27 @@
     background-position: bottom;
     background-size: contain;
 }
+
+
+/* Res-1200 */
+
+@media (max-width: 1200px) {
+    #seccion-estilo .card-estilo .content {
+        opacity: 1;
+    }
+}
+
+
+/* Res-992 */
+
+@media (max-width: 992px) {}
+
+
+/* Res-768 */
+
+@media (max-width: 768px) {}
+
+
+/* Res-576 */
+
+@media (max-width: 576px) {}

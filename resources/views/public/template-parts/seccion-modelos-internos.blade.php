@@ -20,7 +20,8 @@
                 <div class="item card-oferta" data-aos="zoom-out-up">
                     <div class="item-head position-relative d-flex align-items-end">
                         <span class="text-uppercase f-12 text-white">Nuevo</span>
-                        <img src="{{ asset('assets/img/oferta2.png') }}" class="img">
+                        <img src="{{ asset('assets/img/jeep1.png') }}" class="img img-version">
+                        <img src="{{ asset('assets/img/jeep1-hover.png') }}" class="img img-version-hover">
                     </div>
                     <div class="item-body d-flex">
                         <div class="w-100">
@@ -51,7 +52,8 @@
                 <div class="item card-oferta" data-aos="zoom-out-up">
                     <div class="item-head position-relative d-flex align-items-end">
                         <span class="text-uppercase f-12 text-white">Nuevo</span>
-                        <img src="{{ asset('assets/img/oferta3.png') }}" class="img">
+                        <img src="{{ asset('assets/img/jeep1.png') }}" class="img img-version">
+                        <img src="{{ asset('assets/img/jeep1-hover.png') }}" class="img img-version-hover">
                     </div>
                     <div class="item-body d-flex">
                         <div class="w-100">
@@ -81,7 +83,8 @@
             <div class="col-12 col-md-4 mb-5">
                 <div class="item card-oferta" data-aos="zoom-out-up">
                     <div class="item-head position-relative d-flex align-items-end">
-                        <img src="{{ asset('assets/img/oferta1.png') }}" class="img">
+                        <img src="{{ asset('assets/img/jeep1.png') }}" class="img img-version">
+                        <img src="{{ asset('assets/img/jeep1-hover.png') }}" class="img img-version-hover">
                     </div>
                     <div class="item-body d-flex">
                         <div class="w-100">
@@ -111,7 +114,8 @@
             <div class="col-12 col-md-4 mb-5">
                 <div class="item card-oferta" data-aos="zoom-out-up">
                     <div class="item-head position-relative d-flex align-items-end">
-                        <img src="{{ asset('assets/img/oferta1.png') }}" class="img">
+                        <img src="{{ asset('assets/img/jeep1.png') }}" class="img img-version">
+                        <img src="{{ asset('assets/img/jeep1-hover.png') }}" class="img img-version-hover">
                     </div>
                     <div class="item-body d-flex">
                         <div class="w-100">
@@ -141,7 +145,8 @@
             <div class="col-12 col-md-4 mb-5">
                 <div class="item card-oferta" data-aos="zoom-out-up">
                     <div class="item-head position-relative d-flex align-items-end">
-                        <img src="{{ asset('assets/img/oferta1.png') }}" class="img">
+                        <img src="{{ asset('assets/img/jeep1.png') }}" class="img img-version">
+                        <img src="{{ asset('assets/img/jeep1-hover.png') }}" class="img img-version-hover">
                     </div>
                     <div class="item-body d-flex">
                         <div class="w-100">

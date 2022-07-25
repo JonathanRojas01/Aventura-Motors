@@ -1,4 +1,4 @@
-<section id="seccion-financiamiento" class="" style="background-image: url('{{ asset('assets/img/fondo-financiamiento.png') }}');">
+<section id="seccion-financiamiento" class="zoom-in-out" style="background-image: url('{{ asset('assets/img/fondo-financiamiento.png') }}');">
     
     <div class="content">
 

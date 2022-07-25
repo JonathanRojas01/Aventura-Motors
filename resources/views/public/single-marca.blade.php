@@ -7,9 +7,9 @@
 
 
 
-    <section id="seccion-servicios-2" class="imgCover" style="background-image: url('{{ asset('assets/img/fondo-servicios2.png') }}');">
+    <section id="seccion-servicios-2" class="imgCover zoom-in-out" style="background-image: url('{{ asset('assets/img/fondo-servicios2.png') }}');">
 
-        <div class="velo3"></div>
+        <div class="velo2"></div>
 
         <div class="marca">
             <img src="{{ asset('assets/img/marca1.svg') }}">

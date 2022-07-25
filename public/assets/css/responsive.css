@@ -1,0 +1,36 @@
+.only-responsive {
+    display: none;
+}
+
+
+/* Res-1200 */
+
+@media (max-width: 1200px) {
+    #carrusel_banners_main .navegacion {
+        display: none;
+    }
+    .only-responsive.res-1200 {
+        display: block;
+    }
+    .only-responsive.res-1200 .navegacion .row {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+/* Res-992 */
+
+@media (max-width: 992px) {}
+
+
+/* Res-768 */
+
+@media (max-width: 768px) {}
+
+
+/* Res-576 */
+
+@media (max-width: 576px) {}

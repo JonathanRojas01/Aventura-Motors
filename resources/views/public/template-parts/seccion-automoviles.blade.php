@@ -438,9 +438,45 @@
         
                 </div>
 
+
+                <!-- Paginación -->
+                <nav class="paginacion d-flex align-items-center" aria-label="Page navigation example">
+
+                    <p class="blue text-uppercase">10 páginas en total</p>
+
+                    <ul class="pagination m-0 ms-3">
+                        
+                        <li class="page-item">
+                            <a class="page-link page-link-prev" href="#" aria-label="Previous">
+                                <img src="{{ asset('assets/img/arrow-drop-up.svg') }}">
+                            </a>
+                        </li>
+                        
+                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+                        <li class="page-item"><a class="page-link" href="#">2</a></li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#">4</a></li>
+                        <li class="page-item"><a class="page-link" href="#">5</a></li>
+                        <li class="page-item"><a class="page-link" href="#">6</a></li>
+                        <li class="page-item"><a class="page-link" href="#">7</a></li>
+                        <li class="page-item"><a class="page-link" href="#">8</a></li>
+                        <li class="page-item"><a class="page-link" href="#">9</a></li>
+                        <li class="page-item"><a class="page-link" href="#">10</a></li>
+                        
+                        <li class="page-item">
+                            <a class="page-link page-link-next" href="#" aria-label="Next">
+                                <img src="{{ asset('assets/img/arrow-drop-up.svg') }}">
+                            </a>
+                        </li>
+
+                    </ul>
+                </nav>
+
+
             </div>
 
         </div>
+        
 
 
     </div>

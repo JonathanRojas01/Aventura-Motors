@@ -1,0 +1,31 @@
+.paginacion {
+    width: 100%;
+    border-top: 1px solid #406882;
+    padding-top: 50px;
+    justify-content: flex-end;
+}
+
+.pagination {}
+
+.pagination .page-item {
+    width: 40px;
+    height: 40px;
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #0033A0;
+}
+
+.pagination .page-item .page-link {
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pagination .page-item .page-link.page-link-prev img {
+    transform: rotate(180deg);
+}
