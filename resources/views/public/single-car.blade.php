@@ -6,5 +6,6 @@
     @include('public.template-parts.seccion-versiones')
     @include('public.template-parts.seccion-caracteristicas')
     @include('public.template-parts.footer')
+    
 
 </div>
